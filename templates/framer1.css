@@ -1,0 +1,35 @@
+
+* {
+  width: 1200px;
+height: min-content;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+background-color: #ffffff;
+overflow: visible;
+padding: 0px 0px 0px 0px;
+align-content: center;
+flex-wrap: nowrap;
+gap: 0;
+position: absolute;
+border-radius: 0px 0px 0px 0px;
+}
+
+header {
+width: 1200px;
+height: min-content;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+background-color: #ffffff;
+overflow: visible;
+padding: 0px 0px 0px 0px;
+align-content: center;
+flex-wrap: nowrap;
+gap: 0;
+position: absolute;
+border-radius: 0px 0px 0px 0px;
+}
+

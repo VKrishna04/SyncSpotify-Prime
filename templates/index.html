@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SyncSpotify Prime</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>SyncSpotify Prime</h1>
+    </header>
+
+    <main class="container">
+        <p>Welcome to SyncSpotify Prime, a free tool to locally sync playlists from your Spotify and Prime Music accounts.
+            Please Make sure that popup blocker is disabled for this site.
+        </p>
+        <button onclick="openSpotifyLogin()">Login with Spotify</button>
+        <button onclick="openPrimeLogin()">View Prime Music Profile</button>
+        <button onclick="window.location.href='profiles.html'">View your logged in accounts</button>
+    </main>
+    <script>
+        function openSpotifyLogin() {
+            window.open(location.href = '/loginSpotify', '_blank');
+        }
+
+        function openPrimeLogin() {
+            window.open(location.href = '/loginPrime', '_blank');
+        }
+    </script>
+</body>
+
+</html>
