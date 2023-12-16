@@ -8,6 +8,7 @@ from primemusic_auth import (
 from SyncPrimeMusic import SyncPrimeMusic  # These do not exist yet
 from flask import Flask, redirect, request, render_template, jsonify
 from flask_executor import Executor
+import json
 from SyncSpotify_Prime import SyncSpotify_Prime
 from sync_logic import (
     sync_spotify_to_spotify,
@@ -39,7 +40,7 @@ SPOTIPY_REDIRECT_URI = "http://localhost:62908/callback"
 PRIME_CLIENT_ID = "your_prime_client_id"
 PRIME_CLIENT_SECRET = "your_prime_client_secret"
 PRIME_REDIRECT_URI = "http://localhost:62908/prime_callback"
-
+<base url> = https://api.music.amazon.dev
 
 # Initialize the SpotifyAuthenticator and PrimeMusicAuthenticator
 spotify_authenticator = SpotifyAuthenticator(
